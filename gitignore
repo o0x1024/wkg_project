@@ -8,3 +8,4 @@ wgk/log/wkg.log
 wgk/log/err.log
 wgk/__debug_bin.exe
 wkg_frontend/.env.production
+wkg-agent/global/status.go

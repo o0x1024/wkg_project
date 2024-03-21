@@ -4,31 +4,10 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"fmt"
 	"os"
-	"time"
 
 	"github.com/google/uuid"
 )
-
-func init() {
-	if WorkingDirectory == "" {
-		WorkingDirectory = "/var/run"
-	}
-
-	uuid := uuid.New()
-
-	// 获取当前时间戳（以纳秒为单位）
-	timestamp := time.Now().UnixNano()
-
-	// 创建带时间戳的 UUID
-	uuidWithTimestamp := uuid
-	copy(uuidWithTimestamp[6:], timestampBytes(timestamp))
-
-	ID = uuidWithTimestamp.String()
-
-	fmt.Println("agentid:" + ID)
-}
 
 var (
 	Context, Cancel            = context.WithCancel(context.Background())
@@ -39,14 +18,6 @@ var (
 	Version string = "1.0.0"
 )
 
-func timestampBytes(ts int64) []byte {
-	b := make([]byte, 8)
-	for i := uint(0); i < 64; i += 8 {
-		b[7-(i/8)] = byte(ts >> i)
-	}
-	return b
-}
-
 func fromUUIDFile(file string) (id uuid.UUID, err error) {
 	var idBytes []byte
 	idBytes, err = os.ReadFile(file)
@@ -55,7 +26,6 @@ func fromUUIDFile(file string) (id uuid.UUID, err error) {
 	}
 	return
 }
-
 func fromIDFile(file string) (id []byte, err error) {
 	id, err = os.ReadFile(file)
 	if err == nil {
@@ -66,4 +36,44 @@ func fromIDFile(file string) (id []byte, err error) {
 		id = bytes.TrimSpace(id)
 	}
 	return
+}
+func init() {
+	if WorkingDirectory == "" {
+		WorkingDirectory = "/var/run"
+	}
+	var ok bool
+	if ID, ok = os.LookupEnv("SPECIFIED_AGENT_ID"); ok {
+		return
+	}
+	defer func() {
+		os.WriteFile("machine-id", []byte(ID), 0600)
+	}()
+	source := []byte{}
+	isid, err := fromIDFile("/var/lib/cloud/data/instance-id")
+	if err == nil {
+		source = append(source, isid...)
+	}
+	pdid, err := fromIDFile("/sys/class/dmi/id/product_uuid")
+	if err == nil {
+		source = append(source, pdid...)
+	}
+	emac, err := fromIDFile("/sys/class/net/eth0/address")
+	if err == nil {
+		source = append(source, emac...)
+	}
+	if len(source) > 8 {
+		ID = uuid.NewSHA1(uuid.NameSpaceOID, source).String()
+		return
+	}
+	mid, err := fromUUIDFile("/etc/machine-id")
+	if err == nil {
+		ID = mid.String()
+		return
+	}
+	mid, err = fromUUIDFile("machine-id")
+	if err == nil {
+		ID = mid.String()
+		return
+	}
+	ID = uuid.New().String()
 }
