@@ -1,0 +1,297 @@
+2023-10-27T16:09:51.700+0800	INFO	wkg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-10-27T16:09:51.709+0800	INFO	wkg-agent/main.go:52	product:wkg-agent
+2023-10-27T16:09:51.709+0800	INFO	wkg-agent/main.go:53	version:1.0.0
+2023-10-27T16:09:51.709+0800	INFO	wkg-agent/main.go:54	id:
+2023-10-27T16:09:51.710+0800	INFO	wkg-agent/main.go:55	hostname:DESKTOP-GFEJRHT
+2023-10-27T16:09:51.710+0800	INFO	wkg-agent/main.go:56	intranet_ipv4:[192.168.127.191]
+2023-10-27T16:09:51.710+0800	INFO	wkg-agent/main.go:57	intranet_ipv6:[]
+2023-10-27T16:09:51.710+0800	INFO	wkg-agent/main.go:58	extranet_ipv4:[]
+2023-10-27T16:09:51.711+0800	INFO	wkg-agent/main.go:59	extranet_ipv6:[]
+2023-10-27T16:09:51.711+0800	INFO	wkg-agent/main.go:60	platform:ubuntu
+2023-10-27T16:09:51.711+0800	INFO	wkg-agent/main.go:61	platform_family:debian
+2023-10-27T16:09:51.711+0800	INFO	wkg-agent/main.go:62	platform_version:22.04
+2023-10-27T16:09:51.711+0800	INFO	wkg-agent/main.go:63	kernel_version:5.10.16.3-microsoft-standard-WSL2
+2023-10-27T16:09:51.712+0800	INFO	wkg-agent/main.go:64	arch:x86_64
+2023-10-27T16:09:51.712+0800	INFO	wkg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-10-27T16:09:51.712+0800	INFO	transport/transfer.go:67	send handler running
+2023-10-27T16:09:51.712+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-10-27T16:09:56.728+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:09:56.728+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:10:36.890+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:10:36.891+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 399
+2023-10-27T16:10:36.892+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:10:36.892+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:12:51.713+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.00000000 61566976 153577.49450549 0.00000000 578 23 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00492467 0.04843574}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:13:49.519+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:13:49.519+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 776
+2023-10-27T16:13:49.520+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:13:49.520+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:14:31.970+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:14:31.970+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1175
+2023-10-27T16:14:31.971+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:14:31.972+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:15:51.713+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.15733348 62029824 0.00000000 0.00000000 578 24 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00601279 0.04815129}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:16:55.876+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:16:55.876+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1552
+2023-10-27T16:16:55.877+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:16:55.877+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:17:53.373+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:17:53.374+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1917
+2023-10-27T16:17:53.375+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:17:53.375+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:18:51.713+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.19572243 66396160 0.00000000 0.00000000 578 24 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00808769 0.04889390}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:20:15.304+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:20:15.304+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 2294
+2023-10-27T16:20:15.305+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:20:15.305+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:21:51.713+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.21583280 63373312 0.00000000 0.00000000 578 24 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01081630 0.04868932}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:22:42.986+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:22:42.986+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 2671
+2023-10-27T16:22:42.987+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:22:42.987+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:23:20.412+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:23:20.413+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3070
+2023-10-27T16:23:20.414+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:23:20.414+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:24:51.714+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.25816635 66744320 0.00000000 0.00000000 578 23 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01183851 0.04897100}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:25:46.553+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:25:46.553+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3455
+2023-10-27T16:25:46.554+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:25:46.555+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:27:51.713+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.30050021 62046208 0.00000000 0.00000000 578 24 1698394189     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01374230 0.04898160}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:28:14.547+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:28:14.547+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3832
+2023-10-27T16:28:14.548+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:28:14.549+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:30:38.969+0800	INFO	wkg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-10-27T16:30:38.977+0800	INFO	wkg-agent/main.go:52	product:wkg-agent
+2023-10-27T16:30:38.977+0800	INFO	wkg-agent/main.go:53	version:1.0.0
+2023-10-27T16:30:38.977+0800	INFO	wkg-agent/main.go:54	id:
+2023-10-27T16:30:38.977+0800	INFO	wkg-agent/main.go:55	hostname:DESKTOP-GFEJRHT
+2023-10-27T16:30:38.977+0800	INFO	wkg-agent/main.go:56	intranet_ipv4:[192.168.127.191]
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:57	intranet_ipv6:[]
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:58	extranet_ipv4:[]
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:59	extranet_ipv6:[]
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:60	platform:ubuntu
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:61	platform_family:debian
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:62	platform_version:22.04
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:63	kernel_version:5.10.16.3-microsoft-standard-WSL2
+2023-10-27T16:30:38.978+0800	INFO	wkg-agent/main.go:64	arch:x86_64
+2023-10-27T16:30:38.979+0800	INFO	wkg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-10-27T16:30:38.979+0800	INFO	transport/transfer.go:67	send handler running
+2023-10-27T16:30:38.979+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-10-27T16:30:43.992+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:30:43.993+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:31:36.007+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:31:36.007+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 377
+2023-10-27T16:31:36.008+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:31:36.009+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:33:30.299+0800	INFO	wkg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:52	product:wkg-agent
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:53	version:1.0.0
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:54	id:
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:55	hostname:DESKTOP-GFEJRHT
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:56	intranet_ipv4:[192.168.127.191]
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:57	intranet_ipv6:[]
+2023-10-27T16:33:30.302+0800	INFO	wkg-agent/main.go:58	extranet_ipv4:[]
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:59	extranet_ipv6:[]
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:60	platform:ubuntu
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:61	platform_family:debian
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:62	platform_version:22.04
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:63	kernel_version:5.10.16.3-microsoft-standard-WSL2
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:64	arch:x86_64
+2023-10-27T16:33:30.303+0800	INFO	wkg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-10-27T16:33:30.303+0800	INFO	transport/transfer.go:67	send handler running
+2023-10-27T16:33:30.304+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-10-27T16:33:35.318+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:33:35.318+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:34:15.181+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:34:15.181+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 399
+2023-10-27T16:34:15.182+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:34:15.182+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:36:30.305+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.00000000 60252160 115865.60000000 0.00000000 3394 23 1698395550     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00580803 0.05084742}  [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:36:35.307+0800	ERROR	transport/transfer.go:54	Post "http://172.31.36.33:7788/v2/agent/heartBeat": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-10-27T16:36:35.307+0800	ERROR	transport/transfer.go:89	Post "http://172.31.36.33:7788/v2/agent/heartBeat": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-10-27T16:36:43.331+0800	ERROR	wkgApi/api.go:40	Post "http://172.31.36.33:7788/v3/task/uploadDomains?token=41f330686cbf9e21d9f092c68d032b03e24c7284": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-10-27T16:36:43.331+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 776
+2023-10-27T16:41:03.697+0800	INFO	wkg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-10-27T16:41:03.704+0800	INFO	wkg-agent/main.go:52	product:wkg-agent
+2023-10-27T16:41:03.704+0800	INFO	wkg-agent/main.go:53	version:1.0.0
+2023-10-27T16:41:03.704+0800	INFO	wkg-agent/main.go:54	id:cc69ccb8-6ebb-1791-ea38-b043d2cc47fe
+2023-10-27T16:41:03.704+0800	INFO	wkg-agent/main.go:55	hostname:DESKTOP-GFEJRHT
+2023-10-27T16:41:03.705+0800	INFO	wkg-agent/main.go:56	intranet_ipv4:[192.168.127.191]
+2023-10-27T16:41:03.705+0800	INFO	wkg-agent/main.go:57	intranet_ipv6:[]
+2023-10-27T16:41:03.705+0800	INFO	wkg-agent/main.go:58	extranet_ipv4:[]
+2023-10-27T16:41:03.705+0800	INFO	wkg-agent/main.go:59	extranet_ipv6:[]
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:60	platform:ubuntu
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:61	platform_family:debian
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:62	platform_version:22.04
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:63	kernel_version:5.10.16.3-microsoft-standard-WSL2
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:64	arch:x86_64
+2023-10-27T16:41:03.706+0800	INFO	wkg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-10-27T16:41:03.706+0800	INFO	transport/transfer.go:67	send handler running
+2023-10-27T16:41:03.707+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-10-27T16:41:08.722+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:41:08.722+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:43:38.894+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:43:38.894+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 399
+2023-10-27T16:43:38.895+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:43:38.895+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:44:03.707+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.00000000 66146304 152564.74725275 0.00000000 5659 30 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00475609 0.04845432} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:46:01.146+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:46:01.147+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 776
+2023-10-27T16:46:01.148+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:46:01.148+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:47:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.12611089 67362816 22.75551639 0.00000000 5659 24 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00526082 0.04851469} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:47:08.709+0800	ERROR	transport/transfer.go:54	Post "http://172.31.36.33:7788/v2/agent/heartBeat": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-10-27T16:47:08.709+0800	ERROR	transport/transfer.go:89	Post "http://172.31.36.33:7788/v2/agent/heartBeat": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-10-27T16:48:26.134+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:48:26.135+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1175
+2023-10-27T16:48:26.136+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:48:26.136+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:50:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.15338864 67407872 0.00000000 0.00000000 5659 23 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00593380 0.04886426} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:50:48.463+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:50:48.463+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1552
+2023-10-27T16:50:48.464+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:50:48.464+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:51:26.519+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:51:26.520+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 1929
+2023-10-27T16:51:26.521+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:51:26.521+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:53:03.707+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.19177869 68911104 0.00000000 0.00000000 5659 23 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00735943 0.04892723} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:53:47.871+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:53:47.871+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 2328
+2023-10-27T16:53:47.872+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:53:47.873+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:56:03.707+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.22633317 69160960 0.00000000 0.00000000 5659 23 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00900365 0.04878838} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:56:45.388+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:56:45.389+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 2711
+2023-10-27T16:56:45.389+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:56:45.390+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T16:59:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.22405488 68194304 0.00000000 0.00000000 5659 23 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.00862498 0.04887363} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T16:59:14.090+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T16:59:14.091+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3088
+2023-10-27T16:59:14.092+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T16:59:14.092+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:00:00.040+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:00:00.041+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3506
+2023-10-27T17:00:00.042+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:00:00.042+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:00:40.416+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:00:40.416+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 3924
+2023-10-27T17:00:40.417+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:00:40.418+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:02:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.27227788 71421952 0.00000000 0.00000000 5659 24 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01031931 0.04927158} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:03:00.079+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:03:00.080+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 4342
+2023-10-27T17:03:00.081+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:03:00.081+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:03:36.640+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:03:36.640+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 4760
+2023-10-27T17:03:36.641+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:03:36.641+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:04:14.303+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:04:14.304+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 5178
+2023-10-27T17:04:14.304+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:04:14.305+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:04:58.832+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:04:58.832+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 5574
+2023-10-27T17:04:58.833+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:04:58.833+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:05:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.32316623 74252288 0.00000000 0.00000000 5659 25 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01124867 0.04921583} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:05:38.755+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:05:38.756+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 5970
+2023-10-27T17:05:38.757+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:05:38.757+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:06:15.046+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:06:15.047+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 6388
+2023-10-27T17:06:15.048+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:06:15.048+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:06:53.121+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:06:53.121+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 6806
+2023-10-27T17:06:53.122+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:06:53.123+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:07:31.484+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:07:31.484+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 7224
+2023-10-27T17:07:31.485+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:07:31.486+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:08:03.707+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.35639016 74772480 0.00000000 0.00000000 5659 28 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01280659 0.04923011} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:08:06.241+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:08:06.242+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 7642
+2023-10-27T17:08:06.243+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:08:06.243+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:08:45.707+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:08:45.707+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 7890
+2023-10-27T17:08:45.708+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:08:45.708+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:09:23.965+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:09:23.966+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 8308
+2023-10-27T17:09:23.967+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:09:23.968+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:10:07.265+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:10:07.266+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 8726
+2023-10-27T17:10:07.268+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:10:07.268+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:10:45.697+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:10:45.697+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 9144
+2023-10-27T17:10:45.699+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:10:45.700+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:11:03.707+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.46055568 75034624 0.00000000 0.00000000 5659 31 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.01713474 0.04911031} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:11:23.999+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:11:24.000+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 9562
+2023-10-27T17:11:24.003+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:11:24.004+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:11:58.813+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:11:58.814+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 9980
+2023-10-27T17:11:58.815+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:11:58.816+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:12:35.254+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:12:35.254+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 10398
+2023-10-27T17:12:35.255+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:12:35.255+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:13:08.035+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:13:08.035+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 10816
+2023-10-27T17:13:08.036+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:13:08.037+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:13:49.475+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:13:49.476+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 11234
+2023-10-27T17:13:49.477+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:13:49.477+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:14:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.53966615 74354688 0.00000000 0.00000000 5659 36 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.02291315 0.04906684} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:14:32.770+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:14:32.770+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 11652
+2023-10-27T17:14:32.772+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:14:32.772+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:15:07.978+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:15:07.978+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 12070
+2023-10-27T17:15:07.979+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:15:07.980+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:15:51.325+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:15:51.326+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 12488
+2023-10-27T17:15:51.327+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:15:51.327+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:16:29.585+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:16:29.585+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 12906
+2023-10-27T17:16:29.586+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:16:29.587+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:17:03.708+0800	INFO	transport/transfer.go:86	{{ 5.10.16.3-microsoft-standard-WSL2 x86_64 ubuntu debian 22.04 26668285952 0.53855523 74919936 0.00000000 0.00000000 5659 27 1698396061     Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1698315542 0.02147936 0.04923165} cc69ccb8-6ebb-1791-ea38-b043d2cc47fe [192.168.127.191] [] [] [] DESKTOP-GFEJRHT 1.0.0 wkg-agent}
+2023-10-27T17:17:04.594+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:17:04.595+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 13324
+2023-10-27T17:17:04.596+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:17:04.596+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:17:39.189+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:17:39.190+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 13742
+2023-10-27T17:17:39.191+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:17:39.191+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:18:13.587+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:18:13.587+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 14138
+2023-10-27T17:18:13.588+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:18:13.588+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:18:50.851+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:18:50.851+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 14556
+2023-10-27T17:18:50.852+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:18:50.852+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-10-27T17:19:26.679+0800	INFO	wkgApi/api.go:45	upload success.
+2023-10-27T17:19:26.679+0800	INFO	subfinder/subfinder.go:92	TaskNo: 1001 find subdomain count: 14974
+2023-10-27T17:19:26.681+0800	INFO	taskCore/core.go:94	{"taskId":"439e4cd33e56769cd7f997be2551b430","taskNo":1001,"domains":[{"cid":5,"rootDomains":["monyun.cn"]}],"VSAssets":{}}
+2023-10-27T17:19:26.681+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.

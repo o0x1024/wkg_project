@@ -1,0 +1,10 @@
+wgk/conf/dev/config.yaml
+wgk/conf/subfinder.yaml
+wgk/conf/prd/config.yaml
+wgk/conf/app.conf
+log/access.log
+wgk/log/err.log
+wgk/log/wkg.log
+wgk/log/err.log
+wgk/__debug_bin.exe
+wkg_frontend/.env.production
